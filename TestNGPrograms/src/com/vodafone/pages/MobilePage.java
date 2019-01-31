@@ -10,7 +10,7 @@ public class MobilePage extends MainPage{
 		
 	}
 
-	public void navigateToPayMonthly(String payMonthlyLink)
+	public static void navigateToPayMonthly(String payMonthlyLink)
 	{
 		//Clicking on Pay Monthly Link to initiate PAY Monthly Phone Purchase
 		click(payMonthlyLink);

@@ -16,16 +16,16 @@ import org.testng.annotations.Test;
 
 public class MainPage {
 	
-	WebDriver driver = new FirefoxDriver();
+	static WebDriver driver = new FirefoxDriver();
 	FileInputStream fp;
-	Properties prop;
+	static Properties prop;
 	
 	public MainPage() throws IOException
 	{
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
-		fp = new FileInputStream("D://Reason//Workspace//TestNGPrograms//src//com//vodafone//properties//PayMAquiProp.properties");
+		fp = new FileInputStream("C://Users//The Home Computer//git//TestProjectOne//TestNGPrograms//src//com//vodafone//properties//PayMAquiProp.properties");
 		prop = new Properties();
 		prop.load(fp);
 		
@@ -63,7 +63,7 @@ public class MainPage {
 		*/
 				
 	}
-	public void click(String element)
+	public static void click(String element)
 	{
 		driver.findElement(By.xpath(prop.getProperty(element))).click();
 	}

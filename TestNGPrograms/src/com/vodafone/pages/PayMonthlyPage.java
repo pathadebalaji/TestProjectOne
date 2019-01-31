@@ -7,10 +7,10 @@ import com.vodafone.main.MainPage;
 public class PayMonthlyPage extends MainPage{
 
 	public PayMonthlyPage() throws IOException {
-	
+		
 	}
-	
-	public void selectHandset(String handsetLocator)
+
+	public static void selectHandset(String handsetLocator)
 	{
 		//choosing Handset
 		click(handsetLocator);

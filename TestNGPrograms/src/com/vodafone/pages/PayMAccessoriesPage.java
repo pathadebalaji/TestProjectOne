@@ -7,8 +7,12 @@ import com.vodafone.main.MainPage;
 public class PayMAccessoriesPage extends MainPage{
 
 	public PayMAccessoriesPage() throws IOException {
-		super();
-		// TODO Auto-generated constructor stub
+
+	}
+	
+	public static void addPayMPlan(String PlanLocator)
+	{
+		click(PlanLocator);
 	}
 
 }
