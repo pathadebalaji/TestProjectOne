@@ -13,7 +13,7 @@ public class PayMAquisition {
   private HomePage hp;
   /*private MobilePage mp;
   private PayMonthlyPage pmp;*/
-
+//PayMonthly Aquisition for Handset + PAYM Plan
 @Test
   public void buyPayM() throws IOException {
 	  hp = new HomePage();

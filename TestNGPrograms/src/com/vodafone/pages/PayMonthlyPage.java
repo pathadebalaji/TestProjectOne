@@ -9,7 +9,7 @@ public class PayMonthlyPage extends MainPage{
 	public PayMonthlyPage() throws IOException {
 		
 	}
-
+	//Method to select PayM Handset 
 	public static void selectHandset(String handsetLocator)
 	{
 		//choosing Handset
